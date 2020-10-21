@@ -1,16 +1,16 @@
-Package: yourPkg
-Title: What the Package Does (One Line, Title Case)
+Package: covid19viz
+Title: COVID-19 Visual Exploration
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Aryan",
+           family = "Jain",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "ajai0024@student.moanash.edu")
+Description: The package explores the spread of COVID-19 across various nations and also compares the measures taken by these country to combat the virus using a shiny app. This easy to use and lightweight app produces simple visualisations with an easy to use User Interface that is both minimal and functional.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://github.com/etc5523-2020/r-package-assessment-aryan-monash
+BugReports: https://github.com/etc5523-2020/r-package-assessment-aryan-monash/issues
