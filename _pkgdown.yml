@@ -1,0 +1,16 @@
+template:
+  params:
+    bootswatch: cosmo
+    
+navbar:
+  title: "Covid19Viz"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Articles"
+      href: articles/covid19viz.html
+    - text: "Reference"
+      href: reference/index.html
+  right:
+    - icon: fa-github
+      href: https://github.com/etc5523-2020/r-package-assessment-aryan-monash
