@@ -1,6 +1,7 @@
 
 # Covid19Viz
 <!-- badges: start -->
+[![R build status](https://github.com/etc5523-2020/r-package-assessment-aryan-monash/workflows/R-CMD-check/badge.svg)](https://github.com/etc5523-2020/r-package-assessment-aryan-monash/actions)
 <!-- badges: end -->
 
 The goal of _covid19viz_ is to run the COVID-19 exploration app designed with Shiny R package.

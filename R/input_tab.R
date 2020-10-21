@@ -7,7 +7,6 @@
 #' @import shiny
 #' 
 #' @param tabindex argument based on index of the page (example mentioned in description)
-#' 
 #'       
 #' @export
 input_tab <- function(tabindex) {

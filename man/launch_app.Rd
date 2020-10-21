@@ -7,5 +7,5 @@
 launch_app()
 }
 \description{
-launching the shiny app
+Launches the embedded shiny app in a new window.
 }

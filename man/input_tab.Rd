@@ -2,10 +2,15 @@
 % Please edit documentation in R/input_tab.R
 \name{input_tab}
 \alias{input_tab}
-\title{input_tab}
+\title{input_tab for the UI}
 \usage{
 input_tab(tabindex)
 }
+\arguments{
+\item{tabindex}{argument based on index of the page (example mentioned in description)}
+}
 \description{
-input_tab
+Selects the appropriate argument for shiny's selectInput function based on the app module.
+tabindex = 2 is for "The Spread" page
+tabindex = 3 is for "The Response" page
 }
