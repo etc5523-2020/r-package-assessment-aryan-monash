@@ -4,6 +4,10 @@ on:
 
 name: pkgdown
 
+template:
+  params:
+    bootswatch: cerulean
+
 jobs:
   pkgdown:
     runs-on: macOS-latest
