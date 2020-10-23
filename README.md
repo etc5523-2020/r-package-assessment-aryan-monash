@@ -33,7 +33,7 @@ library(covid19viz)
 ```
 Below is a basic preview of the app in action.
 
-!["App Preview"](man/images/thespread.gif)
+!["App Preview"](man/figures/thespread.gif)
 
 Below is an example of the dataset
 

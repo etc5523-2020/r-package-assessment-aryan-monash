@@ -64,7 +64,7 @@ data <- covid19()
 
 ## Installation
 
-You can install the development version of covid19viz from [GITHUB]("https://github.com") with:
+You can install the development version of covid19viz from [Github]("https://github.com") with:
 
 ``` r
 # install.packages("devtools")
