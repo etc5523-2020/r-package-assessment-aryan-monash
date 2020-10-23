@@ -1,41 +1,46 @@
+---
+title: "COVID-19 Exploration App"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{COVID-19 Exploration App}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
 
-# Covid19Viz
-<!-- badges: start -->
-[![R build status](https://github.com/etc5523-2020/r-package-assessment-aryan-monash/workflows/R-CMD-check/badge.svg)](https://github.com/etc5523-2020/r-package-assessment-aryan-monash/actions)
-<!-- badges: end -->
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r setup}
+library(covid19viz)
+```
 
 The goal of _covid19viz_ is to run the COVID-19 exploration app designed with Shiny R package.
 
 The app explores the spread of COVID-19 across various nations and also compares the measures taken by these country to combat the virus. This easy to use and lightweight app produces simple visualisations with an easy to use User Interface that is both minimal and functional.
 
-### Features
+### Features of the App
 
 **The Spread** - Explore cases, deaths, recovery and testing over a selected date range and countries.
 
 **The Response** - Compare responses by the government for user-selectable parameters and date input.
 
-## Installation
+## About the Data
 
-You can install the development version of covid19viz from [GITHUB]("https://github.com") with:
+The data used for building the package is sourced from the COVID19 package from CRAN and can be accessed using:
 
-``` r
-# install.packages("devtools")
-devtools::install_github("etc5523-2020/r-package-assessment-aryan-monash")
+```r
+install.packages("covid19")
+library(covid19)
 ```
 
-## Example
-
-To run the app use the R code mentioned below.
-
-``` r
-library(covid19viz)
-## launch_app()
+```r
+data <- covid19()
 ```
-Below is a basic preview of the app in action.
-
-!["App Preview"](man/figures/thespread.gif)
-
-Below is an example of the dataset
 
 ```r
 > top_covid
@@ -57,5 +62,20 @@ Below is an example of the dataset
 
 ```
 
+## Installation
 
+You can install the development version of covid19viz from [Github]("https://github.com") with:
 
+``` r
+# install.packages("devtools")
+devtools::install_github("etc5523-2020/r-package-assessment-aryan-monash")
+```
+
+## Usage
+
+To run the app use the R code mentioned below.
+
+``` r
+library(covid19viz)
+## launch_app()
+```
