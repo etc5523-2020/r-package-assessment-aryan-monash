@@ -25,6 +25,9 @@ input_tab <- function(tabindex) {
                             "transport_closing", "testing_policy")
     )
   }
+  else {
+    stop("Invalid input")
+  }
 }
 
 "input_tab"
