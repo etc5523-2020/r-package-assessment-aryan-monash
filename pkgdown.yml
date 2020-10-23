@@ -1,6 +1,7 @@
 pandoc: 2.7.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
-articles: {}
-last_built: 2020-10-21T05:33Z
+articles:
+  covid19viz: covid19viz.html
+last_built: 2020-10-23T08:08Z
 
